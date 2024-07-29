@@ -1,8 +1,12 @@
 <script setup>
-import { RouterLink } from 'vue-router';
+import Navigation from "./Navigation.vue";
+import IconLogo from "@/assets/icons/IconLogo.vue";
+import NavigationMobile from "./NavigationMobile.vue";
 </script>
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="flex flex-col justify-between">
+    <IconLogo />
+    <Navigation />
+    <NavigationMobile />
   </div>
 </template>
