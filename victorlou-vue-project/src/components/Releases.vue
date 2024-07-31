@@ -1,5 +1,5 @@
 <script setup>
-import MusicCard from './MusicCard.vue';
+import MusicCard from './(SemUso)MusicCards.vue';
 </script>
 <template>
   <MusicCard />
