@@ -35,6 +35,6 @@ export default {
   </div>
   <!-- Navigation pages -->
   <div ref="menu">
-    <Navigation />
+    <!-- <Navigation /> -->
   </div>
 </template>
