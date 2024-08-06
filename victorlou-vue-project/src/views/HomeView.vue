@@ -1,5 +1,6 @@
-<script>
+<script setup>
+import ReleasesNew from '@/components/ReleasesNew.vue';
 </script>
 <template>
-  <p>teste</p>
+  <ReleasesNew />
 </template>
