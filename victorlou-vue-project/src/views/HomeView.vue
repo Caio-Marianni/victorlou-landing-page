@@ -3,6 +3,7 @@ import IconArrowRight from "@/assets/icons/IconArrowRight.vue";
 import Dates from "@/components/Dates.vue";
 import Hero from "@/components/Hero.vue";
 import HeroNew from "@/components/HeroNew.vue";
+import Sets from "@/components/Sets.vue"
 import ReleasesNew from "@/components/ReleasesNew.vue";
 </script>
 <template>
@@ -23,11 +24,22 @@ import ReleasesNew from "@/components/ReleasesNew.vue";
   <Hero>
     <template #heading>Dates</template>
     <template #pageView>
-      <RouterLink to="/releases">
+      <RouterLink to="/dates">
         <IconArrowRight />
         See more Dates
       </RouterLink>
     </template>
     <template #content><Dates /></template>
+  </Hero>
+  <!-- Sets -->
+  <Hero>
+    <template #heading>Sets</template>
+    <template #pageView>
+      <a href="https://www.youtube.com/channel/UCv1M1zI4E3ZR4PmCJ0VsD2A">
+        <IconArrowRight />
+        See more Sets
+      </a>
+    </template>
+    <template #content><Sets /></template>
   </Hero>
 </template>

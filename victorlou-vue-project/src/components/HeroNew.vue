@@ -1,6 +1,6 @@
 <template>
   <!-- Background -->
-  <div class=""><img src="../assets/teste1.png" alt="" /></div>
+  <div class=""><img src="../assets/summerAllDay5.webp" alt="" /></div>
   <!-- Heading -->
   <div class="">
     <h1>
