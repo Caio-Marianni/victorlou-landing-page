@@ -8,7 +8,7 @@ import NavigationMobile from "./NavigationMobile.vue";
   <div class="flex flex-col justify-between">
     <IconLogo class="w-10" />
     <IconLogoName class="w-40" />
-    <!-- <Navigation /> -->
+    <Navigation />
     <NavigationMobile />
   </div>
 </template>

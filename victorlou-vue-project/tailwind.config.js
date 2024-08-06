@@ -4,6 +4,7 @@ export default {
   theme: {
     fontFamily: {
       projectFont: ["Rajdhani", "sans-serif"],
+      dateFont: ["sixCaps", "sans-serif"],
     },
     extend: {
       animation: {
