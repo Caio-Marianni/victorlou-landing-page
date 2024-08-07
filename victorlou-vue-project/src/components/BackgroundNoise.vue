@@ -1,3 +1,3 @@
 <template>
-  <img src="../assets/Noise.webp" alt="background-noise">
+  <img src="../assets/Noise.jpg" alt="background-noise">
 </template>
