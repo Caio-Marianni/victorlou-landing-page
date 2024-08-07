@@ -47,14 +47,14 @@ import IconLibrayBooks from "@/assets/icons/IconLibrayBooks.vue";
     </NavigationItem>
   </RouterLink>
   <!-- Merch -->
-  <RouterLink to="/merch">
+  <a href="https://welcometodesande.com" target="_blank">
     <NavigationItem>
       <template #icon>
         <IconSell />
       </template>
       <template #heading>Merch</template>
     </NavigationItem>
-  </RouterLink>
+  </a>
   <!-- Contact -->
   <RouterLink to="/contact">
     <NavigationItem>

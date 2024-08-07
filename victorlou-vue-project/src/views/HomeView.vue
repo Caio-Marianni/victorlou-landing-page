@@ -1,9 +1,8 @@
 <script setup>
 import IconArrowRight from "@/assets/icons/IconArrowRight.vue";
-import Sets from "@/components/Sets.vue"
+import Sets from "@/components/Sets.vue";
 import Hero from "@/components/Hero.vue";
 import Dates from "@/components/Dates.vue";
-import Contact from "@/components/Contact.vue";
 import HeroNew from "@/components/HeroNew.vue";
 import ReleasesNew from "@/components/ReleasesNew.vue";
 </script>
@@ -43,6 +42,4 @@ import ReleasesNew from "@/components/ReleasesNew.vue";
     </template>
     <template #content><Sets /></template>
   </Hero>
-  <!-- Contact -->
-  <Contact />
 </template>

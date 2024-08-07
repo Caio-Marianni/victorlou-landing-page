@@ -2,6 +2,7 @@
 import { RouterView } from 'vue-router'
 import Navbar from './components/Navbar.vue';
 import Footer from './components/Footer.vue';
+import Contact from './components/Contact.vue';
 import BackgroundNoise from './components/BackgroundNoise.vue';
 </script>
 
@@ -9,5 +10,6 @@ import BackgroundNoise from './components/BackgroundNoise.vue';
   <Navbar />
   <BackgroundNoise />
   <RouterView />
+  <Contact />
   <Footer />
 </template>
