@@ -10,8 +10,7 @@
     y="0"
     xml:space="preserve"
   >
-    <style>
-      .st2,
+      <!-- .st2,
       .st3 {
         fill: none;
         stroke: #666;
@@ -20,8 +19,7 @@
       }
       .st3 {
         stroke-width: 6;
-      }
-    </style>
+      } -->
 
     <g id="youtube_00000103975802115179222730000012269648027945476753_">
       <path d="M0 .011h48v48H0v-48z" fill="none" />
