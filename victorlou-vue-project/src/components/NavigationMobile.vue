@@ -2,6 +2,7 @@
 import Navigation from "./Navigation.vue";
 
 export default {
+  components: { Navigation },
   methods: {
     rotateMenu() {
       const bar1 = this.$refs.bar1;
@@ -13,28 +14,39 @@ export default {
       bar2.classList.toggle("opacity-0");
       bar3.classList.toggle("rotate-45");
       bar3.classList.toggle("-translate-y-4");
-      menu.classList.toggle("top-1");
+      menu.classList.toggle("-translate-y-full");
     },
   },
 };
 </script>
 <template>
-  <!-- Burguer Menu -->
-  <div
-    @click="rotateMenu" class="md:invisible cursor-pointer flex flex-col gap-2 justify-center items-center absolute z-40 top-3 right-12"
-  >
+  <div class="absolute right-0 w-full bg-cSixty800 -z-10">
+    <div class="h-20 py-5 pr-5 bg-cSixty500">
+      <!-- Burguer Menu -->
+      <div
+        @click="rotateMenu"
+        class="absolute right-4 cursor-pointer flex flex-col gap-2 justify-center items-center"
+      >
+        <div
+          ref="bar1"
+          class="h-2 w-10 bg-cThirty rounded-full transition duration-300 ease-in-out transform"
+        ></div>
+        <div
+          ref="bar2"
+          class="h-2 w-10 bg-cThirty rounded-full transition duration-200 ease-in-out transform rotate-0"
+        ></div>
+        <div
+          ref="bar3"
+          class="h-2 w-10 bg-cThirty rounded-full transition duration-300 ease-in-out transform"
+        ></div>
+      </div>
+    </div>
+    <!-- Navigation pages -->
     <div
-      ref="bar1" class="h-2 w-10 bg-red rounded-full transition duration-300 ease-in-out transform"
-    ></div>
-    <div
-      ref="bar2" class="h-2 w-10 bg-red rounded-full transition duration-200 ease-in-out transform rotate-0"
-    ></div>
-    <div
-      ref="bar3" class="h-2 w-10 bg-red rounded-full transition duration-300 ease-in-out transform"
-    ></div>
-  </div>
-  <!-- Navigation pages -->
-  <div ref="menu">
-    <!-- <Navigation /> -->
+      ref="menu"
+      class="absolute w-screen right-0 -translate-y-full bg-cSixty800 transition-all -z-10"
+    >
+      <Navigation />
+    </div>
   </div>
 </template>

@@ -1,14 +1,23 @@
 <script setup>
-import IconLogo from "@/assets/icons/IconLogo.vue";
-import IconLogoName from "@/assets/icons/IconLogoName.vue";
 import Navigation from "./Navigation.vue";
 import NavigationMobile from "./NavigationMobile.vue";
+import LogoContainer from "./LogoContainer.vue";
 </script>
 <template>
-  <div class="flex flex-col justify-between">
-    <IconLogo class="w-10" />
-    <IconLogoName class="w-40" />
-    <Navigation />
-    <NavigationMobile />
+  <div
+    class="fixed flex md:justify-between w-screen md:w-auto md:h-screen md:flex-col md:px-0 z-20 md:bg-cSixty500"
+  >
+    <!-- Logo -->
+    <RouterLink to="/">
+      <LogoContainer />
+    </RouterLink>
+    <!-- Desktop -->
+    <div class="hidden md:flex">
+      <Navigation />
+    </div>
+    <!-- Mobile -->
+    <div class="md:invisible">
+      <NavigationMobile />
+    </div>
   </div>
 </template>
