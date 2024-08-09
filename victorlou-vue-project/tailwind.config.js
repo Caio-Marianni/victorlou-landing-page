@@ -2,11 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx  }"],
   theme: {
-    fontFamily: {
-      projectFont: ["Rajdhani", "sans-serif"],
-      dateFont: ["sixCaps", "sans-serif"],
-    },
     extend: {
+      fontFamily: {
+        projectFont: ["Rajdhani", "sans-serif"],
+        dateFont: ["sixCaps", "sans-serif"],
+      },
       animation: {
         move: "move 2s ease-in-out infinite",
       },
@@ -34,14 +34,20 @@ export default {
       cSixty500: "#292929",
       cSixtyOffBlue: "#070029",
       // 30% color
-      cThirty : "#fdfdfd",
-      cThirty800 : "#f5f5f5",
-      cThirty500 : "#f0f0f0",
-      cThirtyOff : "#FAF9F6",
-      cThirtyOffBlue : "#f5f6fa",
+      cThirty: "#fdfdfd",
+      cThirty800: "#f5f5f5",
+      cThirty500: "#f0f0f0",
+      cThirty000: "#f0f0f0",
+      cThirtyOff: "#FAF9F6",
+      cThirtyOffBlue: "#f5f6fa",
       // 10% color
-      cTen : "#0000ff",
-      cTen500 : "#001d75",
+      cTen: "#0000ff",
+      cTen500: "#001d75",
+      // 
+      white: "#ffffff",
+      black: "#000000",
+      card: "#eef3f7",
+      cadControl: "#fff"
     },
   },
   plugins: [],

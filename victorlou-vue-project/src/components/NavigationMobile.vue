@@ -20,12 +20,12 @@ export default {
 };
 </script>
 <template>
-  <div class="absolute right-0 w-full bg-cSixty800 -z-10">
-    <div class="h-20 py-5 pr-5 bg-cSixty500">
+  <div class="absolute md:static right-0 w-full bg-cSixty800 -z-10">
+    <div class="h-20 py-5 pr-5 bg-cSixty500 border">
       <!-- Burguer Menu -->
       <div
         @click="rotateMenu"
-        class="absolute right-4 cursor-pointer flex flex-col gap-2 justify-center items-center"
+        class="absolute right-7 cursor-pointer flex flex-col gap-2 justify-center items-center"
       >
         <div
           ref="bar1"

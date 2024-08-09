@@ -14,8 +14,10 @@ import ReleasesNew from "@/components/ReleasesNew.vue";
     <template #heading>Releases</template>
     <template #pageView>
       <RouterLink to="/releases">
-        <IconArrowRight />
-        See more Releases
+        <div class="flex align-middle justify-center">
+          <IconArrowRight />
+          See more Releases
+        </div>
       </RouterLink>
     </template>
     <template #content><ReleasesNew /></template>

@@ -5,12 +5,10 @@ import LogoContainer from "./LogoContainer.vue";
 </script>
 <template>
   <div
-    class="fixed flex md:justify-between w-screen md:w-auto md:h-screen md:flex-col md:px-0 z-20 md:bg-cSixty500"
+    class="fixed flex md:justify-between w-screen md:w-32 md:h-screen md:flex-col md:px-0 z-20 md:bg-black"
   >
     <!-- Logo -->
-    <RouterLink to="/">
-      <LogoContainer />
-    </RouterLink>
+    <LogoContainer />
     <!-- Desktop -->
     <div class="hidden md:flex">
       <Navigation />

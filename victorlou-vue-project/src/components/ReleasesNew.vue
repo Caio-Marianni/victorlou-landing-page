@@ -36,8 +36,8 @@ export default {
 };
 </script>
 <template>
-  <h1>Last Release</h1>
-  <div class="flex gap-10 items-center" v-for="track in tracks" :key="track.id">
+  <h1 class="text-white">Last Release</h1>
+  <div v-for="track in tracks" :key="track.id">
     <MusicCard
       :title="track.title"
       :artist="track.artist"

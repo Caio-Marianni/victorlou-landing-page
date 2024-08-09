@@ -10,7 +10,7 @@ import IconLibrayBooks from "@/assets/icons/IconLibrayBooks.vue";
 </script>
 
 <template>
-  <div class="flex flex-col md:gap-6">
+  <div class="flex flex-col md:flex-row md:justify-center md:flex-wrap md:gap-6 md:w-full text-cThirty">
     <!-- Home -->
     <RouterLink to="/">
       <NavigationItem>

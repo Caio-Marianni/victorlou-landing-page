@@ -1,19 +1,19 @@
 <template>
   <!-- Background -->
-  <div class=""><img src="../assets/summerAllDay5.webp" alt="" /></div>
+  <div class="-mt-5"><img src="../assets/cover/summerAllDay5.webp" alt="SummerAllDay" /></div>
   <!-- Heading -->
-  <div class="">
+  <div class="text-cThirtyOff">
     <h1>
       Summer All day Vol. 5 <br />
       <span class="">Set</span>
     </h1>
+    <!-- Button -->
+    <a
+      class=""
+      href="https://www.youtube.com/watch?v=MZmfBH4wM4E"
+      target="_blanck"
+    >
+      Listen now
+    </a>
   </div>
-  <!-- Button -->
-  <a
-    class=""
-    href="https://www.youtube.com/watch?v=MZmfBH4wM4E"
-    target="_blanck"
-  >
-    Listen now
-  </a>
 </template>
