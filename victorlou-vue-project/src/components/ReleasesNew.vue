@@ -6,6 +6,22 @@ export default {
   data() {
     return {
       tracks: [
+      {
+          title: "Soca Soca do Submundo (Shark Version)",
+          artist: "Victor Lou, MC Theuzyn",
+          cover: "src/assets/cover/socaSocaShark.webp",
+          music: "src/assets/music/socaSocaShark.ogg",
+          linkSpotify:
+            "https://open.spotify.com/intl-pt/album/1KLyYfUuBmnSlwNEhtnaVU?si=7aVIx_lXRO6ENQM56T1a3A",
+        },
+        {
+          title: "Soca Soca do Submundo (Funk Version)",
+          artist: "Victor Lou, dJ GBR, MC Theuzyn",
+          cover: "src/assets/cover/socaSocaFunk.webp",
+          music: "src/assets/music/socaSocaFunk.ogg",
+          linkSpotify:
+            "https://open.spotify.com/intl-pt/album/6i4F2LcrVKA9I5ltZAEHWu?si=hBMQWm0IS-erHnM9XA34Zw",
+        },
         {
           title: "Untitled (Trance Remix)",
           artist: "Victor Lou, Mazuk",
@@ -21,22 +37,13 @@ export default {
           music: "src/assets/music/baileLotadao.ogg",
           linkSpotify:
             "https://open.spotify.com/intl-pt/album/7LWs9wqCZIUPsZAllaKjEY",
-        },
-        {
-          title: "Silver Stone",
-          artist: "Victor Lou, Odaya",
-          cover: "src/assets/cover/silverStone.webp",
-          music: "src/assets/music/silverStone.ogg",
-          linkSpotify:
-            "https://open.spotify.com/intl-pt/album/6TfU6xhKT4I7ptc5qeiG48",
-        },
+        }
       ],
     };
   },
 };
 </script>
 <template>
-  <h1 class="text-white">Last Release</h1>
   <div v-for="track in tracks" :key="track.id">
     <MusicCard
       :title="track.title"

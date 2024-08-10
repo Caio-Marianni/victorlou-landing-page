@@ -7,6 +7,22 @@ export default {
     return {
       tracks: [
         {
+          title: "Soca Soca do Submundo (Shark Version)",
+          artist: "Victor Lou, MC Theuzyn",
+          cover: "src/assets/cover/socaSocaShark.webp",
+          music: "src/assets/music/socaSocaShark.ogg",
+          linkSpotify:
+            "https://open.spotify.com/intl-pt/album/1KLyYfUuBmnSlwNEhtnaVU?si=7aVIx_lXRO6ENQM56T1a3A",
+        },
+        {
+          title: "Soca Soca do Submundo (Funk Version)",
+          artist: "Victor Lou, dJ GBR, MC Theuzyn",
+          cover: "src/assets/cover/socaSocaFunk.webp",
+          music: "src/assets/music/socaSocaFunk.ogg",
+          linkSpotify:
+            "https://open.spotify.com/intl-pt/album/6i4F2LcrVKA9I5ltZAEHWu?si=hBMQWm0IS-erHnM9XA34Zw",
+        },
+        {
           title: "Untitled (Trance Remix)",
           artist: "Victor Lou, Mazuk",
           cover: "src/assets/cover/untitled(TranceRemix).webp",
@@ -221,7 +237,7 @@ export default {
 </script>
 <template>
   <h1>Releases ON</h1>
-  <div class="flex gap-10 items-center" v-for="track in tracks" :key="track.id">
+  <div v-for="track in tracks" :key="track.id">
     <MusicCard
       :title="track.title"
       :artist="track.artist"

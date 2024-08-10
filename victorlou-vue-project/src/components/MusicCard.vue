@@ -124,39 +124,39 @@ export default {
 </script>
 
 <template>
-  <div class="bg-cThirtyOff bg-opacity-10 w-[410px] min-h-[480px] shadow-[0px_15px_35px_-5px] p-[30px] rounded-[15px]">
+  <div class="bg-cThirtyOff bg-opacity-10 w-[300px] h-[360px] lg:min-h-[430px] shadow-[0px_15px_35px_-5px] p-[20px] rounded-[15px]">
     <!-- halfTop -->
     <div class="flex items-start relative z-[4]">
       <!-- cover -->
-      <div class="w-[300px] h-[300px] ml-[-70px] shrink-0 relative z-[2] rounded-[15px]">
+      <div class="w-[200px] h-[200px] lg:w-[250px] lg:h-[250px] lg:ml-[-60px] shrink-0 relative z-[2] rounded-[15px]">
         <div class="bg-no-repeat bg-center bg-cover w-full h-full absolute rounded-[15px] left-0 top-0 before:content-[] before:w-full before:h-full before:shadow-[0px_10px_40px_0px_rgba(76,70,124,0.5)] before:block before:z-[1] before:absolute before:blur-[10px] before:opacity-90 before:rounded-[15px] before:scale-90 before:top-[30px] after:content-[] after:w-full after:h-full after:shadow-[0px_10px_40px_0px_rgba(76,70,124,0.5)] after:block after:z-[2] after:absolute after:rounded-[15px] before:background: inherit after:background: inherit">
           <img class="w-full h-full object-cover shadow-[0px_10px_40px_0px_rgba(76,70,124,0.5)] select-none pointer-events-none rounded-[15px]" :src="cover" :alt="cover" />
         </div>
       </div>
       <!-- controls -->
-      <div class="flex-1 flex flex-col items-center pl-5">
+      <div class="flex flex-col items-center pl-4">
         <!-- play -->
-        <div class="inline-flex text-3xl text-[#acb8cc] before:bg-cadControl cursor-pointer w-[50px] h-[50px] items-center justify-center relative transition-all duration-[0.3s] ease-[ease-in-out] mb-2.5 p-[5px] before:content-[ before:absolute before:w-full before:h-full before:opacity-0 before:shadow-[0px_5px_10px_0px_rgba(76,70,124,0.2)] before:transition-all before:duration-[0.3s] before:ease-[cubic-bezier(0.35,0.57,0.13,0.88)] before:rounded-[50%] before:scale-50" @click="play">
+        <div class="inline-flex text-[#acb8cc] before:bg-cadControl cursor-pointer w-[50px] h-[50px] lg:w-[60px] lg:h-[60px] items-center justify-center relative transition-all duration-[0.3s] ease-[ease-in-out] mb-2.5 p-[5px] before:content-[ before:absolute before:w-full before:h-full before:opacity-0 before:shadow-[0px_5px_10px_0px_rgba(76,70,124,0.2)] before:transition-all before:duration-[0.3s] before:ease-[cubic-bezier(0.35,0.57,0.13,0.88)] before:rounded-[50%] before:scale-50 hover:scale-110" @click="play">
           <IconPause class="w-20 h-20 relative z-[2]" v-if="isTimerPlaying" />
           <IconPlay class="w-20 h-20 relative z-[2] fill-cadControl" v-else />
         </div>
         <!-- External link -->
-        <a class="inline-flex text-3xl text-[#acb8cc] before:bg-cadControl cursor-pointer w-[50px] h-[50px] items-center justify-center relative transition-all duration-[0.3s] ease-[ease-in-out] mb-2.5 p-[5px] before:content-[ before:absolute before:w-full before:h-full before:opacity-0 before:shadow-[0px_5px_10px_0px_rgba(76,70,124,0.2)] before:transition-all before:duration-[0.3s] before:ease-[cubic-bezier(0.35,0.57,0.13,0.88)] before:rounded-[50%] before:scale-50" :href="spotify" target="_blank">
+        <a class="inline-flex  text-[#acb8cc] before:bg-cadControl cursor-pointer w-[50px] h-[50px] lg:w-[60px] lg:h-[60px] items-center justify-center relative transition-all duration-[0.3s] ease-[ease-in-out] mb-2.5 p-[5px] before:content-[ before:absolute before:w-full before:h-full before:opacity-0 before:shadow-[0px_5px_10px_0px_rgba(76,70,124,0.2)] before:transition-all before:duration-[0.3s] before:ease-[cubic-bezier(0.35,0.57,0.13,0.88)] before:rounded-[50%] before:scale-50 hover:scale-110" :href="spotify" target="_blank">
           <IconSpotify class="w-20 h-20 relative z-[2]" />
         </a>
       </div>
     </div>
     <!-- halfBottom-->
-    <div class="w-full mt-[-15px] select-none" ref="progress">
+    <div class="flex flex-col align-middle w-full mt-[15px] select-none" ref="progress">
       <!-- info / timer -->
       <div class="flex items-end justify-between">
         <!-- info -->
-        <div class="text-[#71829e] flex-1 select-none pr-[60px]">
-          <p class="font-normal text-xl opacity-70 leading-[1.3em] min-h-[52px]">{{ title }}</p>
-          <p class="text-xl font-[bold] leading-[1.3em] mb-3">{{ artist }}</p>
+        <div class="text-[#71829e] h-20 lg:h-[100px] select-none">
+          <p class="text-xl font-[bold] leading-[1em] mb-3">{{ title }}</p>
+          <p class="font-normal text-sm lg:text- opacity-70 leading-[1.3em] lg:min-h-[52px]">{{ artist }}</p>
         </div>
         <!-- timer -->
-        <div class="text-[#71829e] font-bold text-xl opacity-50">{{ duration }}</div>
+        <div class="text-[#71829e] font-bold lg:text-xl opacity-50">{{ duration }}</div>
       </div>
       <!-- progress -->
        <div class="h-1.5 w-full cursor-pointer bg-[#d0d8e6] inline-block rounded-[10px]" @click="clickProgress">

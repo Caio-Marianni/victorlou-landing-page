@@ -11,14 +11,16 @@ import ReleasesNew from "@/components/ReleasesNew.vue";
   <HeroNew />
   <!-- Releases -->
   <Hero>
-    <template #heading>Releases</template>
+    <template #heading>Last Releases</template>
     <template #pageView>
-      <RouterLink to="/releases">
-        <div class="flex align-middle justify-center">
-          <IconArrowRight />
-          See more Releases
-        </div>
-      </RouterLink>
+      <div class="relative h-full w-40">
+        <RouterLink to="/releases">
+          <div class="absolute bottom-0 right-0 flex align-middle justify-center">
+            <IconArrowRight />
+            See more Releases
+          </div>
+        </RouterLink>
+      </div>
     </template>
     <template #content><ReleasesNew /></template>
   </Hero>
@@ -26,10 +28,14 @@ import ReleasesNew from "@/components/ReleasesNew.vue";
   <Hero>
     <template #heading>Dates</template>
     <template #pageView>
-      <RouterLink to="/dates">
-        <IconArrowRight />
-        See more Dates
-      </RouterLink>
+      <div class="relative h-full w-40">
+        <RouterLink to="/dates">
+          <div class="absolute bottom-0 right-0 flex align-middle justify-center">
+            <IconArrowRight />
+            See more Dates
+          </div>
+        </RouterLink>
+      </div>
     </template>
     <template #content><Dates /></template>
   </Hero>
@@ -37,10 +43,13 @@ import ReleasesNew from "@/components/ReleasesNew.vue";
   <Hero>
     <template #heading>Sets</template>
     <template #pageView>
-      <a href="https://www.youtube.com/channel/UCv1M1zI4E3ZR4PmCJ0VsD2A">
-        <IconArrowRight />
-        See more Sets
-      </a>
+      <div class="relative h-full w-40">
+        <a class="absolute bottom-0 right-0 flex align-middle justify-center"
+          href="https://www.youtube.com/channel/UCv1M1zI4E3ZR4PmCJ0VsD2A" >
+          <IconArrowRight />
+          See more Sets
+        </a>
+      </div>
     </template>
     <template #content><Sets /></template>
   </Hero>
