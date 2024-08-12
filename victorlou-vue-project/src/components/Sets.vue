@@ -33,7 +33,7 @@ export default {
   <div class="" v-for="set in sets" :key="set.id">
     <!-- Card -->
     <div class="">
-      <img :src="set.cover" alt="Set Cover" />
+      <img class="" :src="set.cover" alt="Set Cover" />
       <!-- info -->
       <div class="">
         <h2>{{ set.title }}</h2>

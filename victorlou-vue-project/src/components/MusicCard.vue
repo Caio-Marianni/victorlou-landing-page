@@ -124,7 +124,7 @@ export default {
 </script>
 
 <template>
-  <div class="bg-cThirtyOff bg-opacity-10 w-[300px] h-[360px] lg:min-h-[430px] shadow-[0px_15px_35px_-5px] p-[20px] rounded-[15px]">
+  <div class="bg-cSixty500 bg-opacity-80 w-[300px] h-[360px] lg:min-h-[430px] shadow-[0px_15px_35px_-5px] p-[20px] rounded-[15px]">
     <!-- halfTop -->
     <div class="flex items-start relative z-[4]">
       <!-- cover -->
@@ -153,7 +153,7 @@ export default {
         <!-- info -->
         <div class="text-[#71829e] h-20 lg:h-[100px] select-none">
           <p class="text-xl font-[bold] leading-[1em] mb-3">{{ title }}</p>
-          <p class="font-normal text-sm lg:text- opacity-70 leading-[1.3em] lg:min-h-[52px]">{{ artist }}</p>
+          <p class="font-light text-sm opacity-70 leading-[1.3em] lg:min-h-[52px]">{{ artist }}</p>
         </div>
         <!-- timer -->
         <div class="text-[#71829e] font-bold lg:text-xl opacity-50">{{ duration }}</div>

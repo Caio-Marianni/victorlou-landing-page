@@ -193,7 +193,7 @@ export default {
         {
           title: "Kill Bixo",
           artist: "Victor Lou",
-          cover: "src/assets/cover/may23.webp",
+          cover: "src/assets/cover/may23(2).webp",
           music: "src/assets/music/killBixo.ogg",
           linkSpotify:
             "https://open.spotify.com/intl-pt/album/465uKcpgmFpMmcEAwIW8J1",
@@ -201,7 +201,7 @@ export default {
         {
           title: "HM",
           artist: "Victor Lou",
-          cover: "src/assets/cover/may23.webp",
+          cover: "src/assets/cover/may23(2).webp",
           music: "src/assets/music/hm.ogg",
           linkSpotify:
             "https://open.spotify.com/intl-pt/album/465uKcpgmFpMmcEAwIW8J1",
@@ -209,7 +209,7 @@ export default {
         {
           title: "Industry",
           artist: "Victor Lou",
-          cover: "src/assets/cover/may23.webp",
+          cover: "src/assets/cover/may23(2).webp",
           music: "src/assets/music/industry.ogg",
           linkSpotify:
             "https://open.spotify.com/intl-pt/album/465uKcpgmFpMmcEAwIW8J1",
@@ -217,7 +217,7 @@ export default {
         {
           title: "Memories",
           artist: "Victor Lou",
-          cover: "src/assets/cover/may23.webp",
+          cover: "src/assets/cover/may23(2).webp",
           music: "src/assets/music/memories.ogg",
           linkSpotify:
             "https://open.spotify.com/intl-pt/album/465uKcpgmFpMmcEAwIW8J1",
@@ -225,7 +225,7 @@ export default {
         {
           title: "Interlúdio",
           artist: "Victor Lou",
-          cover: "src/assets/cover/may23.webp",
+          cover: "src/assets/cover/may23(2).webp",
           music: "src/assets/music/interludio.ogg",
           linkSpotify:
             "https://open.spotify.com/intl-pt/album/465uKcpgmFpMmcEAwIW8J1",
@@ -236,7 +236,6 @@ export default {
 };
 </script>
 <template>
-  <h1>Releases ON</h1>
   <div v-for="track in tracks" :key="track.id">
     <MusicCard
       :title="track.title"

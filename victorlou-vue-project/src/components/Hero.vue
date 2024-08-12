@@ -2,7 +2,7 @@
   <div class="flex flex-col align-middle">
     <!-- Top Part -->
     <div
-      class="flex justify-between mt-24 mb-14 mx-5 px-5 py-3 border-b-2 text-cThirty border-cThirty000"
+      class="flex justify-between mt-24 mb-14 mx-5 px-5 py-3 border-b-2 border-opacity-30 text-cThirty border-cThirty000"
     >
       <div class="flex text-2xl">
         <slot name="heading"></slot>

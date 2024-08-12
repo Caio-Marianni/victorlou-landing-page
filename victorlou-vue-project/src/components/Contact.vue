@@ -4,7 +4,7 @@ import Apps from "./Apps.vue";
 </script>
 <template>
   <!-- Email -->
-  <div class="">
+  <div class="border text-white bg-cSixty">
     <EmailContact>
       <template #heading>Management</template>
       <template #email>mgmt@victorloumusic.com</template>

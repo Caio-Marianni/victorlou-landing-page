@@ -2,7 +2,7 @@
 import IconArrowRight from "@/assets/icons/IconArrowRight.vue";
 import Sets from "@/components/Sets.vue";
 import Hero from "@/components/Hero.vue";
-import Dates from "@/components/Dates.vue";
+import DatesMonth from "@/components/DatesMonth.vue";
 import HeroNew from "@/components/HeroNew.vue";
 import ReleasesNew from "@/components/ReleasesNew.vue";
 </script>
@@ -37,7 +37,7 @@ import ReleasesNew from "@/components/ReleasesNew.vue";
         </RouterLink>
       </div>
     </template>
-    <template #content><Dates /></template>
+    <template #content><DatesMonth /></template>
   </Hero>
   <!-- Sets -->
   <Hero>

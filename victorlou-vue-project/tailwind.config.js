@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        projectFont: ["Rajdhani", "sans-serif"],
-        dateFont: ["sixCaps", "sans-serif"],
+        // projectFont: ["Rajdhani", "sans-serif"],
+        dateFont: ["Six Caps", "sans-serif"],
       },
       animation: {
         move: "move 2s ease-in-out infinite",
@@ -47,7 +47,6 @@ export default {
       white: "#ffffff",
       black: "#000000",
       card: "#eef3f7",
-      cadControl: "#fff"
     },
   },
   plugins: [],
