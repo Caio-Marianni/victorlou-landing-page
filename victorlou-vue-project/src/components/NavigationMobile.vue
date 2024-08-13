@@ -21,7 +21,7 @@ export default {
 </script>
 <template>
   <div class="absolute md:static right-0 w-full bg-cSixty800 -z-10">
-    <div class="h-20 py-5 pr-5 bg-cSixty500 border">
+    <div class="h-20 py-5 pr-5 bg-[#191919] border">
       <!-- Burguer Menu -->
       <div
         @click="rotateMenu"
@@ -44,7 +44,7 @@ export default {
     <!-- Navigation pages -->
     <div
       ref="menu"
-      class="absolute w-screen right-0 -translate-y-full bg-cSixty800 transition-all -z-10"
+      class="absolute w-screen right-0 -translate-y-full bg-[#090909] bg-opacity-95 transition-all -z-10"
     >
       <Navigation />
     </div>
