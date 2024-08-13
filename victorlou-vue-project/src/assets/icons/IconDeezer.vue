@@ -1,14 +1,14 @@
 <template>
   <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
   <svg
-    fill="#000000"
+    fill="#ffffff"
     version="1.1"
     id="Capa_1"
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     width="800px"
     height="800px"
-    viewBox="0 0 97.75 97.75"
+    viewBox="-5 -8 97 107"
     xml:space="preserve"
   >
     <g>
