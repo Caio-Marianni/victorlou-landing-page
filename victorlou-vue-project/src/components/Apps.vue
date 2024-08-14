@@ -3,13 +3,13 @@ import IconAppleMusic from "@/assets/icons/IconAppleMusic.vue";
 import IconBeatport from "@/assets/icons/IconBeatport.vue";
 import IconDeezer from "@/assets/icons/IconDeezer.vue";
 import IconInstagram from "@/assets/icons/IconInstagram.vue";
-import IconMusic from "@/assets/icons/IconMusic.vue";
 import IconSoundCloud from "@/assets/icons/IconSoundCloud.vue";
 import IconSpotify from "@/assets/icons/IconSpotify.vue";
 import IconYoutube from "@/assets/icons/IconYoutube.vue";
+import { vScrollReveal } from "vue-scroll-reveal";
 </script>
 <template>
-  <div class="text-white ml-10">
+  <div v-scroll-reveal="{ delay:200, scale: 1, distance: '10px'}" class="text-white ml-10">
     <!-- Title -->
     <h1 class="text-2xl mb-4">Follow Victor Lou On:</h1>
     <!-- icons -->
