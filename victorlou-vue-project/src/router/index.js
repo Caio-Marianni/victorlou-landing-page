@@ -14,26 +14,21 @@ const router = createRouter({
       name: 'about',
       component: () => import('../views/AboutView.vue')
     },
-    // {
-    //   path: '/releases',
-    //   name: 'releases',
-    //   component: () => import('../views/ReleasesView.vue')
-    // },
-    // {
-    //   path: '/dates',
-    //   name: 'dates',
-    //   component: () => import('../views/DatesView.vue')
-    // },
-    // {
-    //   path: '/merch',
-    //   name: 'merch',
-    //   component: () => import('../views/MerchView.vue')
-    // },
-    // {
-    //   path: '/contact',
-    //   name: 'contact',
-    //   component: () => import('../views/ContactView.vue')
-    // }
+    {
+      path: '/releases',
+      name: 'releases',
+      component: () => import('../views/ReleasesView.vue')
+    },
+    {
+      path: '/dates',
+      name: 'dates',
+      component: () => import('../views/DatesView.vue')
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: () => import('../views/ContactView.vue')
+    }
   ]
 })
 
