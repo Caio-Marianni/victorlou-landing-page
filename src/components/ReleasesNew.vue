@@ -1,42 +1,46 @@
 <script>
 import MusicCard from "./MusicCard.vue";
+import socaSocaShark from "../assets/cover/socaSocaShark.webp";
+import socaSocaFunk from "../assets/cover/socaSocaFunk.webp";
+import untitledTranceRemix from "../assets/cover/untitled(TranceRemix).webp";
+import baileLotadao from "../assets/cover/baileLotadao.webp";
 
 export default {
   components: { MusicCard },
   data() {
     return {
       tracks: [
-      {
+        {
           title: "Soca Soca do Submundo (Shark Version)",
           artist: "Victor Lou, MC Theuzyn",
-          cover: "src/assets/cover/socaSocaShark.webp",
+          cover: socaSocaShark,
           music: "src/assets/music/socaSocaShark.ogg",
           linkSpotify:
-            "https://open.spotify.com/intl-pt/album/1KLyYfUuBmnSlwNEhtnaVU?si=7aVIx_lXRO6ENQM56T1a3A",
+              "https://open.spotify.com/intl-pt/album/1KLyYfUuBmnSlwNEhtnaVU?si=7aVIx_lXRO6ENQM56T1a3A",
         },
         {
           title: "Soca Soca do Submundo (Funk Version)",
           artist: "Victor Lou, dJ GBR, MC Theuzyn",
-          cover: "src/assets/cover/socaSocaFunk.webp",
+          cover: socaSocaFunk,
           music: "src/assets/music/socaSocaFunk.ogg",
           linkSpotify:
-            "https://open.spotify.com/intl-pt/album/6i4F2LcrVKA9I5ltZAEHWu?si=hBMQWm0IS-erHnM9XA34Zw",
+              "https://open.spotify.com/intl-pt/album/6i4F2LcrVKA9I5ltZAEHWu?si=hBMQWm0IS-erHnM9XA34Zw",
         },
         {
           title: "Untitled (Trance Remix)",
           artist: "Victor Lou, Mazuk",
-          cover: "src/assets/cover/untitled(TranceRemix).webp",
+          cover: untitledTranceRemix,
           music: "src/assets/music/untitled(TranceRemix).ogg",
           linkSpotify:
-            "https://open.spotify.com/intl-pt/album/6n9HAIjtM3wF1AY8QfXv7p",
+              "https://open.spotify.com/intl-pt/album/6n9HAIjtM3wF1AY8QfXv7p",
         },
         {
           title: "Baile Lotadão",
           artist: "Victor Lou, Gesualdi",
-          cover: "src/assets/cover/baileLotadao.webp",
+          cover: baileLotadao,
           music: "src/assets/music/baileLotadao.ogg",
           linkSpotify:
-            "https://open.spotify.com/intl-pt/album/7LWs9wqCZIUPsZAllaKjEY",
+              "https://open.spotify.com/intl-pt/album/7LWs9wqCZIUPsZAllaKjEY",
         }
       ],
     };
