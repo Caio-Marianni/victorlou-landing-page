@@ -5,7 +5,7 @@ import soTrackBoa from "../assets/cover/soTrackBoa.webp";
 import greenValley from "../assets/cover/greenValley.webp";
 import summerAllDay52 from "../assets/cover/summerAllDay52.webp";
 import summerAllDay42 from "../assets/cover/summerAllDay42.webp";
-import soTrackBoa2 from "../assets/cover/soTrackBoa2 .webp";
+import soTrackBoa2 from "../assets/cover/soTrackBoa2.webp";
 import greenValley2 from "../assets/cover/greenValley2.webp";
 export default {
   data() {
