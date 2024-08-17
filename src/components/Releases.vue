@@ -11,7 +11,7 @@ import may232 from "../assets/cover/may23(2).webp";
 import natural from "../assets/cover/natural.webp";
 import nightIsClosing from "../assets/cover/nightIsClosing.webp";
 import piloto from "../assets/cover/piloto.webp";
-import silverStone from "../assets/cover/silverStone.webp";
+import silverStone from "../assets/cover/silverstone.webp";
 import untitledTranceRemix from "../assets/cover/untitled(TranceRemix).webp";
 import amaM from "../assets/music/ama.ogg";
 import bassLevelM from "../assets/music/bassLevel.ogg";
@@ -39,9 +39,8 @@ import everythingIGotM from "../assets/music/everythingIGot.ogg";
 import kanyesM from "../assets/music/kanyes.ogg";
 import nightIsClosingM from "../assets/music/nightIsClosing.ogg";
 import pilotoM from "../assets/music/piloto.ogg";
-import silverStoneM from "../assets/music/silverStone.ogg";
+import silverStoneM from "../assets/music/silverstone.ogg";
 import untitledTranceRemixM from "../assets/music/untitled(TranceRemix).ogg";
-// try to update 
 
 export default {
   components: { MusicCard },
