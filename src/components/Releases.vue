@@ -1,7 +1,7 @@
 <script>
 import MusicCard from "./MusicCard.vue";
-import socaSocaShark from "../assets/cover/socaoSocaShark.webp";
-import socaSocaFunk from "../assets/cover/socaoSocaShark.webp";
+import socaSocaShark from "../assets/cover/socaSocaShark.webp";
+import socaSocaFunk from "../assets/cover/socaSocaShark.webp";
 import baileLotadao from "../assets/cover/baileLotadao.webp";
 import darkSide from "../assets/cover/darkSide.webp";
 import everythingIGot from "../assets/cover/everythingIGot.webp";
@@ -9,10 +9,10 @@ import kanyes from "../assets/cover/kanyes.webp";
 import may23 from "../assets/cover/may23.webp";
 import may232 from "../assets/cover/may23(2).webp";
 import natural from "../assets/cover/natural.webp";
-import nightIsCLosing from "../assets/cover/nightIsCLosing.webp";
+import nightIsClosing from "../assets/cover/nightIsClosing.webp";
 import piloto from "../assets/cover/piloto.webp";
 import silverStone from "../assets/cover/silverStone.webp";
-import untitledTranceRemix from "../assets/cover/untitledTranceRemix.webp";
+import untitledTranceRemix from "../assets/cover/untitled(TranceRemix).webp";
 import amaM from "../assets/music/ama.ogg";
 import bassLevelM from "../assets/music/bassLevel.ogg";
 import catedralM from "../assets/music/catedral.ogg";
@@ -31,16 +31,16 @@ import paradiseM from "../assets/music/paradise.ogg";
 import remoteControlM from "../assets/music/remoteControl.ogg";
 import shadowzadaM from "../assets/music/shadowzada.ogg";
 import vitoriaM from "../assets/music/vitoria.ogg";
-import socaSocaSharkM from "../assets/music/socaoSocaShark.ogg";
-import socaSocaFunkM from "../assets/music/socaoSocaShark.ogg";
+import socaSocaSharkM from "../assets/music/socaSocaShark.ogg";
+import socaSocaFunkM from "../assets/music/socaSocaShark.ogg";
 import baileLotadaoM from "../assets/music/baileLotadao.ogg";
 import darkSideM from "../assets/music/darkSide.ogg";
 import everythingIGotM from "../assets/music/everythingIGot.ogg";
 import kanyesM from "../assets/music/kanyes.ogg";
-import nightIsCLosingM from "../assets/music/nightIsCLosing.ogg";
+import nightIsClosingM from "../assets/music/nightIsClosing.ogg";
 import pilotoM from "../assets/music/piloto.ogg";
 import silverStoneM from "../assets/music/silverStone.ogg";
-import untitledTranceRemixM from "../assets/music/untitledTranceRemix.ogg";
+import untitledTranceRemixM from "../assets/music/untitled(TranceRemix).ogg";
 
 export default {
   components: { MusicCard },
@@ -98,8 +98,8 @@ export default {
         {
           title: "Night Is Closing",
           artist: "Victor Lou",
-          cover: nightIsCLosing,
-          music: nightIsCLosingM,
+          cover: nightIsClosing,
+          music: nightIsClosingM,
           linkSpotify:
             "https://open.spotify.com/intl-pt/album/3lDpGeWM1LS4mCF2qX8Hcw",
         },
