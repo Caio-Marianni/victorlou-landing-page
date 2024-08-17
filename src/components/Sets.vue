@@ -1,30 +1,38 @@
 <script>
+import summerAllDay5 from "../assets/cover/summerAllDay5.webp";
+import summerAllDay4 from "../assets/cover/summerAllDay4.webp";
+import soTrackBoa from "../assets/cover/soTrackBoa.webp";
+import greenValley from "../assets/cover/greenValley.webp";
+import summerAllDay52 from "../assets/cover/summerAllDay52.webp";
+import summerAllDay42 from "../assets/cover/summerAllDay42.webp";
+import soTrackBoa2 from "../assets/cover/soTrackBoa2 .webp";
+import greenValley2 from "../assets/cover/greenValley2.webp";
 export default {
   data() {
     return {
       sets: [
         {
           title: "Summer All day, Vol.5",
-          cover: "src/assets/cover/summerAllDay5.webp",
-          cover2: "src/assets/cover/summerAllDay52.webp",
+          cover: summerAllDay5,
+          cover2: summerAllDay52,
           link: "https://www.youtube.com/watch?v=MZmfBH4wM4E",
         },
         {
           title: "Summer All day, Vol.4",
-          cover: "src/assets/cover/summerAllDay4.webp",
-          cover2: "src/assets/cover/summerAllDay42.webp",
+          cover: summerAllDay4,
+          cover2: summerAllDay42,
           link: "https://www.youtube.com/watch?v=mrpbPXddepk&pp=ygUOdmljdG9yIGxvdSBzZXQ%3D",
         },
         {
           title: "Só Track Boa - 2023 Sp",
-          cover: "src/assets/cover/soTrackBoa.webp",
-          cover2: "src/assets/cover/soTrackBoa2.webp",
+          cover: soTrackBoa,
+          cover2: soTrackBoa2,
           link: "https://www.youtube.com/watch?v=HXIPapV5dn8&t=1601s&pp=ygUOdmljdG9yIGxvdSBzZXQ%3D",
         },
         {
           title: "Green Valley - Camboriú",
-          cover: "src/assets/cover/greenValley.webp",
-          cover2: "src/assets/cover/greenValley2.webp",
+          cover: greenValley,
+          cover2: greenValley2,
           link: "https://www.youtube.com/watch?v=j3Ochn9KJ2k&t=6605s&pp=ygUOdmljdG9yIGxvdSBzZXQ%3D",
         },
       ],
