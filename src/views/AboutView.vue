@@ -5,7 +5,7 @@ import { vScrollReveal } from 'vue-scroll-reveal';
   <div v-scroll-reveal="{ delay:200, scale: 1, distance: '10px'}">
   <div class="flex flex-col justify-center">
     <img
-      class="m-auto w-2/6"
+      class="m-auto w-9/12 md:w-1/2 lg:w-2/6"
       src="../assets//aboutCover.webp"
       alt="victorlou pic"
     />
