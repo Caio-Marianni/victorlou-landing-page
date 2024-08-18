@@ -5,7 +5,7 @@ import LogoContainer from "./LogoContainer.vue";
 </script>
 <template>
   <div
-    class="fixed flex md:justify-between shadow-[0px_15px_35px_-5px] w-screen md:w-32 md:h-screen md:flex-col md:px-0 z-20 bg-[#191919]"
+    class="font-mainFont fixed flex md:justify-between shadow-[0px_15px_35px_-5px] w-screen md:w-32 md:h-screen md:flex-col md:px-0 z-20 bg-[#191919]"
   >
     <!-- Logo -->
     <LogoContainer />

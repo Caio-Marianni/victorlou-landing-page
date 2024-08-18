@@ -10,7 +10,7 @@ import CenterContent from "./components/CenterContent.vue";
   <!-- Lateral -->
   <Navbar />
   <!-- content -->
-  <div class="pt-20 md:pt-0 md:ml-32">
+  <div class="font-mainFont pt-20 md:pt-0 md:ml-32">
     <CenterContent />
   </div>
 </template>
