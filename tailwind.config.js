@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         // projectFont: ["Rajdhani", "sans-serif"],
         dateFont: ["Six Caps", "sans-serif"],
+        mainFont: ["Barlow", "sans-serif"],
       },
       animation: {
         move: "move 2s ease-in-out infinite",
