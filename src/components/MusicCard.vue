@@ -5,7 +5,7 @@ import IconSpotify from "@/assets/icons/IconSpotify.vue";
 
 export default {
   components: { IconPlay, IconPause, IconSpotify },
-  props: ["title", "artist", "cover", "music", "spotify"],
+  props: ["title", "artists", "cover", "audio", "link"],
   data() {
     return {
       // Created
@@ -141,7 +141,7 @@ export default {
           <IconPlay class="w-20 h-20 relative z-[2] fill-cadControl" v-else />
         </div>
         <!-- External link -->
-        <a class="inline-flex  text-[#acb8cc] before:bg-cadControl cursor-pointer w-[50px] h-[50px] lg:w-[60px] lg:h-[60px] items-center justify-center relative transition-all duration-[0.3s] ease-[ease-in-out] mb-2.5 p-[5px] before:content-[ before:absolute before:w-full before:h-full before:opacity-0 before:shadow-[0px_5px_10px_0px_rgba(76,70,124,0.2)] before:transition-all before:duration-[0.3s] before:ease-[cubic-bezier(0.35,0.57,0.13,0.88)] before:rounded-[50%] before:scale-50 hover:scale-110" :href="spotify" target="_blank">
+        <a class="inline-flex  text-[#acb8cc] before:bg-cadControl cursor-pointer w-[50px] h-[50px] lg:w-[60px] lg:h-[60px] items-center justify-center relative transition-all duration-[0.3s] ease-[ease-in-out] mb-2.5 p-[5px] before:content-[ before:absolute before:w-full before:h-full before:opacity-0 before:shadow-[0px_5px_10px_0px_rgba(76,70,124,0.2)] before:transition-all before:duration-[0.3s] before:ease-[cubic-bezier(0.35,0.57,0.13,0.88)] before:rounded-[50%] before:scale-50 hover:scale-110" :href="link" target="_blank">
           <IconSpotify class="w-20 h-20 relative z-[2]" />
         </a>
       </div>
@@ -153,7 +153,7 @@ export default {
         <!-- info -->
         <div class="text-[#71829e] h-20 lg:h-[100px] select-none">
           <p class="text-xl font-[bold] leading-[1em] mb-3">{{ title }}</p>
-          <p class="font-light text-sm opacity-70 leading-[1.3em] lg:min-h-[52px]">{{ artist }}</p>
+          <p class="font-light text-sm opacity-70 leading-[1.3em] lg:min-h-[52px]">{{ artists }}</p>
         </div>
         <!-- timer -->
         <div class="text-[#71829e] font-bold lg:text-xl opacity-50">{{ duration }}</div>
